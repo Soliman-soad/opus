@@ -30,7 +30,7 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end hidden lg:flex md:relative right-36">
-    <a className="btn text-white rounded-sm bg-[#1355FF] border-none">Contact Us</a>
+    <a className="btn capitalize text-white rounded-sm bg-[#1355FF] border-none">Contact Us</a>
   </div>
 </div>
     );
