@@ -4,14 +4,14 @@ import { HiOutlinePhotograph } from "react-icons/hi";
 
 const BeautifulComponenets = () => {
   return (
-    <div className="mt-[227px] mx-64 grid grid-cols-2 gap-20">
+    <div className="mt-[227px] lg:mx-64 mx-7 lg:grid flex flex-col-reverse lg:grid-cols-2 gap-20">
       <div>
         <div className="flex">
             <div className="bg-[#1355FF] flex justify-center items-center mt-2 text-white mr-8 w-[150px] h-[50px]">
                 <FaTelegramPlane/>
             </div>
           <div>
-            <h1 className="text-[#061237] font-bold text-2xl inline-block bg-white">
+            <h1 className="text-[#061237] font-bold text-2xl lg:inline-block bg-white">
             Choose your sections
             </h1>
             <p className="text-[18px] font-[400px] text-[#061237]">
@@ -41,7 +41,7 @@ const BeautifulComponenets = () => {
           Create pages using beautiful components.
 
           </h2>
-          <div className="w-[350px] h-[108px] absolute right-0">
+          <div className="w-[350px] h-[108px]  ml-20 lg:ml-0 lg:absolute right-0">
             <p className="text-[18px] font-[400px] text-[#37456C] mt-10">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
             </p>

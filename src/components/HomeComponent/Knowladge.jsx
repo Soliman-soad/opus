@@ -3,12 +3,12 @@ import knowledgePic from "../../img/knowladgeImage.png"
 
 const Knowladge = () => {
     return (
-        <div className='grid grid-cols-2 mt-[220px] mx-64 gap-36 items-center'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 mt-[220px] lg:mx-64 mx-6 gap-36 items-center'>
             <div className='relative'>
                 <img src={knowledgePic} alt="" />
                 <div className='w-[400px] h-[400px] bg-[#F2F3F8] absolute -left-20 -top-16 -z-10'></div>
-                <div className='w-[32px] h-[32px] bg-[#B9ECFF] absolute -right-1 -top-24 -z-10'></div>
-                <div className='w-[92px] h-[92px] bg-[#B9ECFF] absolute -right-[92px] -bottom-[92px] -z-10'></div>
+                <div className='w-[32px] h-[32px] bg-[#B9ECFF] absolute right-64 lg:-right-1 -top-24 -z-10'></div>
+                <div className='w-[92px] h-[92px] hidden lg:block bg-[#B9ECFF] absolute -right-[92px] -bottom-[92px] -z-10'></div>
             </div>
             <div className='relative'>
             <h6 className='text-sm text-gray-600 font-bold uppercase ml-5 mb-8'>Knowledge</h6>

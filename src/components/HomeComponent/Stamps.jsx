@@ -5,12 +5,11 @@ import stampsImg from '../../img/stamps.png'
 
 const Stamps = () => {
     return (
-        <div className='mt-[250px] mx-64 grid grid-cols-2 gap-44'>
+        <div className='mt-[250px] lg:mx-64 mx-7 grid grid-cols-1 lg:grid-cols-2 gap-44'>
             <div className='text-center font-bold relative'>
             <div className='flex items-center justify-center text-2xl'><span className='pt-1 pr-1'><HiOutlineTicket/></span> stapms</div>
-            <p className="text-[24px] font-[400px] text-[#061237] mt-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
+            <p className="text-[24px] font-[400px] text-[#061237] mt-8 px-10">
+            The Opus UI Kit lets you showcase your work in style. It's helped take our business online
             </p>
             <p className="text-lg font-[400px] text-[#061237] mt-8">
             Alexa F.
@@ -26,7 +25,7 @@ const Stamps = () => {
             <div className='w-[64px] h-[64px] bg-[#1355FF] absolute right-4 -top-8 -z-10'></div>
             </div>
             <div>
-                <img src={stampsImg} className="-mt-20" alt="" />
+                <img src={stampsImg} className="-mt-20 w-3/4 mx-auto lg:w-full" alt="" />
             </div>
         </div>
     );

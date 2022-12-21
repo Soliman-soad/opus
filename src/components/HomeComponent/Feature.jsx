@@ -4,7 +4,7 @@ import featureImg from "../../img/featureImage.png"
 
 const Feature = () => {
     return (
-        <div className='mt-[220px] mx-64 grid grid-cols-2 items-center gap-10'>
+        <div className='mt-[220px] lg:mx-64 mx-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-10'>
             <div className='relative'>
                 <h6 className='text-sm text-gray-600 font-bold uppercase ml-5 mb-8'>Feature</h6>
                 <h2 className='text-[#061237] font-bold text-4xl'>You’re not just doing business. You’re doing life.</h2>
@@ -24,7 +24,7 @@ const Feature = () => {
                 </div>
             </div>
             <div>
-                <img src={featureImg} className='-mt-20' alt="" />
+                <img src={featureImg} className='lg:-mt-20 ' alt="" />
             </div>
         </div>
     );

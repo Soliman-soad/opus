@@ -5,7 +5,7 @@ import resource3 from '../../img/resource3.png'
 
 const Resource = () => {
     return (
-        <div className='mt-[200px] mx-64'>
+        <div className='mt-[200px] lg:mx-64 mx-7'>
             <div >
             <div className="flex justify-around items-center">
         <h2 className="text-[#061237] font-bold text-[40px]">
@@ -16,8 +16,8 @@ const Resource = () => {
         </a>
       </div>
             </div>
-            <div className='grid grid-cols-3 gap-20 mt-20'>
-            <div className="card bg-none rounded-sm relative">
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-20 mt-20'>
+            <div className="card bg-none rounded-sm relative w-3/4 mx-auto lg:w-full">
           <figure>
             <img src={resource1} className="w-full" />
           </figure>
@@ -32,7 +32,7 @@ const Resource = () => {
           </div>
           
         </div>
-            <div className="card bg-none rounded-sm relative">
+            <div className="card bg-none rounded-sm relative w-3/4 mx-auto lg:w-full">
           <figure>
             <img src={resource2} className="w-full" />
           </figure>
@@ -47,7 +47,7 @@ const Resource = () => {
           </div>
           
         </div>
-            <div className="card bg-none rounded-sm relative">
+            <div className="card bg-none rounded-sm relative w-3/4 mx-auto lg:w-full">
           <figure>
             <img src={resource3} className="w-full" />
           </figure>
