@@ -1,4 +1,5 @@
 import React from 'react';
+import BeautifulComponenets from './HomeComponent/BeautifulComponenets';
 import Header from './HomeComponent/Header';
 import MakeBetter from './HomeComponent/MakeBetter';
 import OtherCompany from './HomeComponent/OtherCompany';
@@ -13,6 +14,7 @@ const Home = () => {
          <Video/>
          <MakeBetter/>
          <Projects/>
+         <BeautifulComponenets/>
         </>
     );
 };
