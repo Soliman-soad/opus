@@ -6,6 +6,7 @@ import Knowladge from './HomeComponent/Knowladge';
 import MakeBetter from './HomeComponent/MakeBetter';
 import OtherCompany from './HomeComponent/OtherCompany';
 import Projects from './HomeComponent/Projects';
+import Stamps from './HomeComponent/Stamps';
 import Video from './HomeComponent/Video';
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
          <BeautifulComponenets/>
          <Feature/>
          <Knowladge/>
+         <Stamps/>
         </>
     );
 };
