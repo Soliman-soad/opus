@@ -21,7 +21,7 @@ const Header = () => {
         <div className="w-[64px] h-[64px] absolute bg-[#1355FF] -top-16 left-20"></div>
         <div className="w-[64px] h-[64px] absolute bg-[#0B1A46] top-2/4 left-16"></div>
         <div>
-          <a className="btn capitalize rounded-sm bg-[#1355FF] ">
+          <a className="btn capitalize rounded-sm bg-[#1355FF] mt-7 border-none">
             Learn more{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
