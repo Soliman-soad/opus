@@ -5,7 +5,7 @@ import stampsImg from '../../img/stamps.png'
 
 const Stamps = () => {
     return (
-        <div className='mt-[250px] lg:mx-64 mx-7 grid grid-cols-1 lg:grid-cols-2 gap-44'>
+        <div data-aos="fade-down" className='mt-[250px] lg:mx-64 mx-7 grid grid-cols-1 lg:grid-cols-2 gap-44'>
             <div className='text-center font-bold relative'>
             <div className='flex items-center justify-center text-2xl'><span className='pt-1 pr-1'><HiOutlineTicket/></span> stapms</div>
             <p className="text-[24px] font-[400px] text-[#061237] mt-8 px-10">

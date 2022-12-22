@@ -43,7 +43,7 @@ const Header = () => {
         <a className="btn btn-ghost rounded-sm mx-auto lg:hidden mt-5">Explore Pages</a>
       </div>
       <div>
-        <div className="lg:relative lg:inline-block">
+        <div data-aos="fade-down" className="lg:relative lg:inline-block">
           <div className="lg:relative lg:inline-block w-full  -left-24 top-10">
             <img src={HeaderImg} alt="" className=" w-8/12 lg:w-full mt-10 mx-auto lg:h-[450px] " />
             <div className="w-[48px] h-[48px] bg-[#0133B7] absolute bottom-2/4 right-16 lg:hidden"></div>

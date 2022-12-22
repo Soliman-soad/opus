@@ -4,7 +4,7 @@ import { HiOutlinePhotograph } from "react-icons/hi";
 
 const BeautifulComponenets = () => {
   return (
-    <div className="mt-[227px] lg:mx-64 mx-7 lg:grid flex flex-col-reverse lg:grid-cols-2 gap-20">
+    <div data-aos="fade-down" className="mt-[227px] lg:mx-64 mx-7 lg:grid flex flex-col-reverse lg:grid-cols-2 gap-20">
       <div>
         <div className="flex">
             <div className="bg-[#1355FF] flex justify-center items-center mt-2 text-white mr-8 w-[150px] h-[50px]">

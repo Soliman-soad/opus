@@ -3,7 +3,7 @@ import knowledgePic from "../../img/knowladgeImage.png"
 
 const Knowladge = () => {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-2 mt-[220px] lg:mx-64 mx-6 gap-36 items-center'>
+        <div data-aos="fade-down" className='grid grid-cols-1 lg:grid-cols-2 mt-[220px] lg:mx-64 mx-6 gap-36 items-center'>
             <div className='relative'>
                 <img src={knowledgePic} alt="" />
                 <div className='w-[400px] h-[400px] bg-[#F2F3F8] absolute -left-20 -top-16 -z-10'></div>

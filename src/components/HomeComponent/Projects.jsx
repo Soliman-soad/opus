@@ -5,7 +5,7 @@ import pro3 from "../../img/person3.png";
 
 const Projects = () => {
   return (
-    <div className="mt-[250px] lg:px-56 px-6 py-[95px] bg-[#061237]">
+    <div data-aos="fade-down" className="mt-[250px] lg:px-56 px-6 py-[95px] bg-[#061237]">
       <div className="flex justify-around items-center flex-col lg:flex-row">
         <h2 className="text-white font-bold text-[40px]">
           Ways to work with us

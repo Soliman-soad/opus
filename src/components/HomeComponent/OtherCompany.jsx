@@ -4,7 +4,7 @@ import { HiOutlineTicket } from "react-icons/hi2";
 const OtherCompany = () => {
     return (
         <>
-        <div className='mt-[112px] lg:mx-48'>
+        <div data-aos="fade-down" className='mt-[112px] lg:mx-48'>
             <div className='text-center my-10 font-bold text-[40px]'>
                 <h1>Trusted and loved by the world’s best teams</h1>
             </div>

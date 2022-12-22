@@ -5,7 +5,7 @@ import resource3 from '../../img/resource3.png'
 
 const Resource = () => {
     return (
-        <div className='mt-[200px] lg:mx-64 mx-7'>
+        <div data-aos="fade-down" className='mt-[200px] lg:mx-64 mx-7'>
             <div >
             <div className="flex justify-around items-center">
         <h2 className="text-[#061237] font-bold text-[40px]">

@@ -4,7 +4,7 @@ import { Player } from 'video-react';
 
 const Video = () => {
     return (
-        <div className='lg:mx-64 relative mx-4'>
+        <div data-aos="fade-down" className='lg:mx-64 relative mx-4'>
             <div>
                 <h6 className='text-sm text-gray-600 font-bold uppercase ml-5 mb-8'>Video title</h6>
                 <h2 className='text-[#061237] font-bold text-[44px]'>Inform users with video sections</h2>

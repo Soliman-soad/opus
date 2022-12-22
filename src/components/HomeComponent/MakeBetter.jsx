@@ -4,7 +4,7 @@ import { RiRocket2Fill } from "react-icons/ri";
 
 const MakeBetter = () => {
     return (
-        <div className='mt-[227px] lg:mx-64 grid grid-cols-1 lg:grid-cols-2 gap-8 mx-5'>
+        <div data-aos="fade-down" className='mt-[227px] lg:mx-64 grid grid-cols-1 lg:grid-cols-2 gap-8 mx-5'>
             <div className='relative'>
             <h2 className='text-[#061237] font-bold text-[40px]'>Make your site better with Opus</h2>
             <div className='w-[350px] h-[108px] lg:absolute right-0'><p className='text-[18px] font-[400px] text-[#37456C]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros. Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus, a pulvinar mauris aliquam.</p>
